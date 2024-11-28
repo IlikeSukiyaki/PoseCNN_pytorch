@@ -23,6 +23,60 @@ You can install the required dependencies using the `requirements.txt` file:
 pip install -r requirements.txt
 
 ```
+## Dataset Preparation
+
+To use this project, you need to download the required dataset and extract it to the root path of the project.
+
+### Steps to Prepare the Dataset
+
+1. **Download the Dataset:**
+   - Download the dataset from the following link:  
+     [PROPS-Pose-Dataset](https://drive.google.com/file/d/15rhwXhzHGKtBcxJAYMWJG7gN7BLLhyAq/view)
+
+2. **Place the Dataset:**
+   - Move the downloaded file `PROPS-Pose-Dataset.tar.gz` to the root directory of the project.
+
+3. **Extract the Dataset:**
+   - Use the following command to extract the dataset:
+     ```bash
+     tar -xvzf PROPS-Pose-Dataset.tar.gz
+     ```
+   - This will create a folder named `PROPS-Pose-Dataset` in the root directory.
+
+4. **Verify the Dataset Structure:**
+   - Ensure the folder structure matches the following:
+     ```
+     PROPS-Pose-Dataset/
+         ├── train/
+         │   ├── rgb/
+         │   ├── depth/
+         │   ├── mask_visib/
+         │   ├── train_gt.json
+         │   ├── train_gt_info.json
+         ├── val/
+         │   ├── rgb/
+         │   ├── depth/
+         │   ├── mask_visib/
+         │   ├── val_gt.json
+         │   ├── val_gt_info.json
+         ├── model/
+             ├── 1_master_chef_can/
+             ├── ...
+     ```
+
+5. **Set Dataset Path in Code:**
+   - The project will automatically locate the dataset in `PROPS-Pose-Dataset` under the root path during execution. Ensure this directory exists before running the code.
+
+---
+
+### Notes
+- If the dataset download link changes or is inaccessible, update it with the correct link.
+- Ensure the extracted dataset files are not corrupted. If any issues occur, re-download and extract the dataset.
+
+Now your dataset is ready for use!
+
+
+
 ## Visualization
 
 The following section demonstrates the process visually using four images from the `PoseCNN_pytorch/image` directory.
