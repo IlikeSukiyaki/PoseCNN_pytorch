@@ -77,7 +77,7 @@ To use this project, you need to download the required dataset and extract it to
 
 ---
 
-## Training and Inference
+## Training
 
 ### Training
 To train the model, run the `train.py` script:
@@ -86,17 +86,34 @@ To train the model, run the `train.py` script:
 python train.py
 ```
 
+## Inference
 
+To visualize the results, follow these steps to set up and run the `inference.py` script:
 
-## Visualization
+### Steps for Inference
 
+1. **Download Pretrained Weights:**
+   - Download the pretrained model weights from the following link:  
+     [PoseCNN Pretrained Weights](https://drive.google.com/file/d/1-9iheQf-TL5MjHTYZITulqbdFn5UK1Sd/view?usp=sharing)
 
-<div align="center">
-    <img src="image/6d1.png" width="230px" style="margin-right: 10px;">
-    <img src="image/6d2.png" width="230px" style="margin-right: 10px;">
-    <img src="image/6d3.png" width="230px" style="margin-right: 10px;">
-    <img src="image/6d4.png" width="230px">
-</div>
+2. **Place the Weights:**
+   - Save the downloaded weights file (e.g., `posecnn_weights.pth`) to your desired directory.
+
+3. **Set the Weights Path in Code:**
+   - Open the `inference.py` script and locate the following line:
+     ```python
+     posecnn_model.load_state_dict(torch.load(os.path.join("your weight here")))
+     ```
+   - Replace `"your weight here"` with the path to your weights file. For example:
+     ```python
+     posecnn_model.load_state_dict(torch.load(os.path.join("models/posecnn_weights.pth")))
+     ```
+
+4. **Run the Inference Script:**
+   - Execute the script to visualize predictions:
+     ```bash
+     python inference.py
+     ```
 
 
 
