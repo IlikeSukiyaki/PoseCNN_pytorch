@@ -4,7 +4,9 @@ This is an implementation of PoseCNN for 6D pose estimation on PROPSP dataset
     <img src="image/6d1.png" width="230px" style="margin-right: 10px;">
     <img src="image/6d2.png" width="230px" style="margin-right: 10px;">
     <img src="image/6d3.png" width="230px" style="margin-right: 10px;">
-    <img src="image/6d4.png" width="230px">
+    <img src="image/6d4.png" width="230px" style="margin-right: 10px;">
+    <img src="image/6d5.png" width="230px" style="margin-right: 10px;">
+    <img src="image/6d6.png" width="230px">
 </div>
 ## Dependencies
 
