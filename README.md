@@ -28,10 +28,10 @@ pip install -r requirements.txt
 The following section demonstrates the process visually using four images from the `PoseCNN_pytorch/image` directory.
 
 <div align="center">
-    <img src="PoseCNN_pytorch/image/6d1.png" width="200px" style="margin-right: 10px;">
-    <img src="PoseCNN_pytorch/image/6d2.png" width="200px" style="margin-right: 10px;">
-    <img src="PoseCNN_pytorch/image/6d3.png" width="200px" style="margin-right: 10px;">
-    <img src="PoseCNN_pytorch/image/6d4.png" width="200px">
+    <img src="image/6d1.png" width="200px" style="margin-right: 10px;">
+    <img src="image/6d2.png" width="200px" style="margin-right: 10px;">
+    <img src="image/6d3.png" width="200px" style="margin-right: 10px;">
+    <img src="image/6d4.png" width="200px">
 </div>
 
 
