@@ -76,7 +76,7 @@ To train the model, run the `train.py` script:
 
 ```bash
 python train.py
-
+```
 
 
 
