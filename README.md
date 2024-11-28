@@ -1,5 +1,11 @@
 # PoseCNN_pytorch
 This is an implementation of PoseCNN for 6D pose estimation on PROPSP dataset
+<div align="center">
+    <img src="image/6d1.png" width="230px" style="margin-right: 10px;">
+    <img src="image/6d2.png" width="230px" style="margin-right: 10px;">
+    <img src="image/6d3.png" width="230px" style="margin-right: 10px;">
+    <img src="image/6d4.png" width="230px">
+</div>
 ## Dependencies
 
 The project requires the following Python libraries and versions:
@@ -82,7 +88,6 @@ python train.py
 
 ## Visualization
 
-The following section demonstrates the process visually using four images from the `PoseCNN_pytorch/image` directory.
 
 <div align="center">
     <img src="image/6d1.png" width="230px" style="margin-right: 10px;">
