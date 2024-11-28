@@ -25,33 +25,19 @@ pip install -r requirements.txt
 ```
 ## Visualization
 
-The following section demonstrates the process visually using four images from the `PoseCNN_pytorch/image` directory. The images are displayed in a receding manner, switching every second.
+The following section demonstrates the process visually using four images from the `PoseCNN_pytorch/image` directory.
 
 <div align="center">
-    <img id="receding-image" src="PoseCNN_pytorch/image/image1.png" alt="PoseCNN Visualization" width="600px">
+    <img src="PoseCNN_pytorch/image/6d1.png" alt="6d1 Visualization" width="200px" style="margin-right: 10px;">
+    <img src="PoseCNN_pytorch/image/6d2.png" alt="6d2 Visualization" width="200px" style="margin-right: 10px;">
+    <img src="PoseCNN_pytorch/image/6d3.png" alt="6d3 Visualization" width="200px" style="margin-right: 10px;">
+    <img src="PoseCNN_pytorch/image/6d4.png" alt="6d4 Visualization" width="200px">
 </div>
 
 ### Images
+The images displayed are as follows:
 - `6d1.png`
 - `6d2.png`
 - `6d3.png`
 - `6d4.png`
-
-### Animation Script
-The images automatically switch every second using the following JavaScript snippet:
-
-```html
-<script>
-  const images = [
-    "PoseCNN_pytorch/image/6d1.png",
-    "PoseCNN_pytorch/image/6d2.png",
-    "PoseCNN_pytorch/image/6d3.png",
-    "PoseCNN_pytorch/image/6d4.png",
-  ];
-  let index = 0;
-  setInterval(() => {
-    document.getElementById("receding-image").src = images[index];
-    index = (index + 1) % images.length;
-  }, 1000);
-</script>
 
