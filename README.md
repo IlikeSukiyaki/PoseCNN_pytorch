@@ -69,11 +69,14 @@ To use this project, you need to download the required dataset and extract it to
 
 ---
 
-### Notes
-- If the dataset download link changes or is inaccessible, update it with the correct link.
-- Ensure the extracted dataset files are not corrupted. If any issues occur, re-download and extract the dataset.
+## Training and Inference
 
-Now your dataset is ready for use!
+### Training
+To train the model, run the `train.py` script:
+
+```bash
+python train.py
+
 
 
 
