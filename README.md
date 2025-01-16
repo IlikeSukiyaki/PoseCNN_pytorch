@@ -8,8 +8,8 @@ This is an implementation of PoseCNN for 6D pose estimation on PROPSP dataset
     <img src="image/6d5.png" width="230px" style="margin-right: 10px;">
     <img src="image/6d6.png" width="230px">
 </div>
-# System Requirements
 
+# System Requirements
 We tested the codes on 
 ```bash
 PyTorch version: 2.3.1
